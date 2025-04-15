@@ -35,7 +35,7 @@
             <?php endforeach; ?>
         <?php endif; ?>
     </div>
-    <!-- Pagination -->
+
     <div class="mt-4">
         <?= $pagination ?>
     </div>

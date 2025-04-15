@@ -9,7 +9,7 @@ class Buku_model extends CI_Model
         }
 
         if ($kategori) {
-            $this->db->where('kategori_id', $kategori);
+            $this->db->where('buku.id_kategori', $kategori);
         }
 
         if ($limit && $start !== null) {
